@@ -51,9 +51,10 @@ function solution2(arr) {
         R--;
       } else {
         result.push([arr[i], arr[L], arr[R]]);
+        // after push 1 set of result we need to continue to loop to find the possible of another set of result
         const lastLeft = arr[L];
         const lastRight = arr[R];
-
+        // since we don't want duplicate set we will ignore the duplicate value
         while (L < R && lastLeft === arr[L]) {
           L++;
         }

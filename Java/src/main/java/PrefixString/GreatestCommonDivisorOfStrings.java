@@ -1,4 +1,4 @@
-package TwoPointers;
+package PrefixString;
 
 public class GreatestCommonDivisorOfStrings {
 

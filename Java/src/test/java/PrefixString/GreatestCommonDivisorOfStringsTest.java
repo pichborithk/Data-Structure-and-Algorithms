@@ -1,4 +1,4 @@
-package TwoPointers;
+package PrefixString;
 
 import org.junit.jupiter.api.Test;
 

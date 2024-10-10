@@ -9,7 +9,7 @@ class MergeStringsAlternatelyTest {
     private final MergeStringsAlternately problem = new MergeStringsAlternately();
 
     @Test
-    public void case1() {
+    public void caseOne() {
         String word1 = "abc";
         String word2 = "pqr";
         String expectedResult = "apbqcr";
@@ -18,7 +18,7 @@ class MergeStringsAlternatelyTest {
     }
 
     @Test
-    public void case2() {
+    public void caseTwo() {
         String word1 = "ab";
         String word2 = "pqrs";
         String expectedResult = "apbqrs";
@@ -27,7 +27,7 @@ class MergeStringsAlternatelyTest {
     }
 
     @Test
-    public void case3() {
+    public void caseThree() {
         String word1 = "abcd";
         String word2 = "pq";
         String expectedResult = "apbqcd";

@@ -9,7 +9,7 @@ class GreatestCommonDivisorOfStringsTest {
     private final GreatestCommonDivisorOfStrings problem = new GreatestCommonDivisorOfStrings();
 
     @Test
-    public void case1() {
+    public void caseOne() {
         String str1 = "ABCABC";
         String str2 = "ABC";
         String expectedResult = "ABC";
@@ -19,7 +19,7 @@ class GreatestCommonDivisorOfStringsTest {
     }
 
     @Test
-    public void case2() {
+    public void caseTwo() {
         String str1 = "ABABAB";
         String str2 = "AB";
         String expectedResult = "AB";
@@ -29,7 +29,7 @@ class GreatestCommonDivisorOfStringsTest {
     }
 
     @Test
-    public void case3() {
+    public void caseThree() {
         String str1 = "LEET";
         String str2 = "CODE";
         String expectedResult = "";
@@ -39,7 +39,7 @@ class GreatestCommonDivisorOfStringsTest {
     }
 
     @Test
-    public void case4() {
+    public void caseFour() {
         String str1 = "ABCDEF";
         String str2 = "ABC";
         String expectedResult = "";

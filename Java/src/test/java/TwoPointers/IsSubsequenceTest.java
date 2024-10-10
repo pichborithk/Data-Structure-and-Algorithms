@@ -9,7 +9,7 @@ class IsSubsequenceTest {
     private final IsSubsequence problem = new IsSubsequence();
 
     @Test
-    public void case1() {
+    public void caseOne() {
         String s = "abc";
         String t = "ahbgdc";
         boolean actualResult = problem.solution(s, t);
@@ -17,7 +17,7 @@ class IsSubsequenceTest {
     }
 
     @Test
-    public void case2() {
+    public void caseTwo() {
         String s = "axc";
         String t = "ahbgdc";
         boolean actualResult = problem.solution(s, t);
@@ -25,7 +25,7 @@ class IsSubsequenceTest {
     }
 
     @Test
-    public void case3() {
+    public void caseThree() {
         String s = "";
         String t = "ahbgdc";
         boolean actualResult = problem.solution(s, t);
@@ -33,7 +33,7 @@ class IsSubsequenceTest {
     }
 
     @Test
-    public void case4() {
+    public void caseFour() {
         String s = "b";
         String t = "abc";
         boolean actualResult = problem.solution(s, t);

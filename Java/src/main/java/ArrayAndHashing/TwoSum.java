@@ -21,3 +21,5 @@ public class TwoSum {
         return new int[]{};
     }
 }
+
+// Link: https://leetcode.com/problems/two-sum/description

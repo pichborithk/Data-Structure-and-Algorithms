@@ -18,3 +18,5 @@ public class TwoSumInSortedArray {
         return new int[]{};
     }
 }
+
+// Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description

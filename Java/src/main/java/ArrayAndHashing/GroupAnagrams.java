@@ -22,3 +22,5 @@ public class GroupAnagrams {
         return new ArrayList<>(map.values());
     }
 }
+
+// Link: https://leetcode.com/problems/group-anagrams/description

@@ -1,6 +1,6 @@
 package TwoPointers;
 
-public class ContainerWithMostWater {
+public class ContainerMostWater {
 
     private int solution(int[] height) {
         int maxArea = 0;
@@ -21,3 +21,5 @@ public class ContainerWithMostWater {
         return maxArea;
     }
 }
+
+// Link: https://leetcode.com/problems/container-with-most-water/description

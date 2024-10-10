@@ -22,3 +22,5 @@ public class ValidParentheses {
         return stack.isEmpty();
     }
 }
+
+// Link: https://leetcode.com/problems/valid-parentheses/description

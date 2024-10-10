@@ -21,3 +21,5 @@ public class MergeStringsAlternately {
         return result.toString();
     }
 }
+
+// Link: https://leetcode.com/problems/merge-strings-alternately/description

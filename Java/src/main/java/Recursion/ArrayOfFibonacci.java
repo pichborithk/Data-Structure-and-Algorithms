@@ -7,6 +7,7 @@ import java.util.Map;
 public class ArrayOfFibonacci {
     /*
     Given N return an N size array of fibonacci
+    Similar problem: https://leetcode.com/problems/fibonacci-number/description/
      */
 
     public static Map<Integer, Long> cache = new HashMap<>();

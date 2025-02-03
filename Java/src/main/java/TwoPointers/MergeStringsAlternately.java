@@ -2,6 +2,13 @@ package TwoPointers;
 
 public class MergeStringsAlternately {
 
+    /*
+    You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1.
+    If a string is longer than the other, append the additional letters onto the end of the merged string.
+    Return the merged string.
+    Link: https://leetcode.com/problems/merge-strings-alternately/description
+     */
+
     public String solution(String word1, String word2) {
         StringBuilder result = new StringBuilder();
         int i = 0;
@@ -21,5 +28,3 @@ public class MergeStringsAlternately {
         return result.toString();
     }
 }
-
-// Link: https://leetcode.com/problems/merge-strings-alternately/description
